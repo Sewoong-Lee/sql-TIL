@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="HR" directorySegmentName="seg_0" id="91269FCC-5C8C-4C48-6393-2F3A5F6BE1A9">
+<sourceConnName>orara</sourceConnName>
+<sourceObjName>HR</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:26 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<schemaObject>73869992-6E16-739D-9004-3B1C50C1E046</schemaObject>
+<defTableSpace>05F8CB8E-BC3B-4B8B-4137-E14A004F4010</defTableSpace>
+<privileges>CREATE VIEW, UNLIMITED TABLESPACE, CREATE DATABASE LINK, CREATE SEQUENCE, CREATE SESSION, ALTER SESSION, CREATE SYNONYM</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="D4BC0BE1-8F81-5402-79A4-CE19B8E78221">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:26 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="2E725E9B-9A89-5DD5-B6A9-530492B71DCE">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:31 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<tableSpace>05F8CB8E-BC3B-4B8B-4137-E14A004F4010</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

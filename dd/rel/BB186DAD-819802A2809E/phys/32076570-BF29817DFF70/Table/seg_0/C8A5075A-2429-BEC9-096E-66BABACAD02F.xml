@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="KEYWORD" directorySegmentName="seg_0" id="C8A5075A-2429-BEC9-096E-66BABACAD02F">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:26:06 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>1206E149-375C-98F3-A753-882764E81FD9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1B2EE3CE-6B3D-B791-7CF5-7CF6030C8F37</segment>
+<tableSpace>349B7AC9-F968-262D-2E8E-FBBAF97E5E86</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="KWNAME" id="7F911524-35B3-B0B5-F967-F96E0C6B5787">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:26:06 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KWCODE" id="DCA07E84-A7AD-F7E7-B7E5-CF24D50AD5B0">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:26:06 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_KEYWORD_KWCODE" id="3841DD87-8DD7-84AE-61F0-603090D329F4">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:26:06 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<schemaObject>1206E149-375C-98F3-A753-882764E81FD9</schemaObject>
+<segment>671BA37E-CFBF-3337-A3AA-836E656124DC</segment>
+<tableSpace>349B7AC9-F968-262D-2E8E-FBBAF97E5E86</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_KEYWORD_KWCODE" id="FEA32631-E22B-E310-FEB6-884152D54384">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:26:06 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<segment>671BA37E-CFBF-3337-A3AA-836E656124DC</segment>
+<tableSpace>349B7AC9-F968-262D-2E8E-FBBAF97E5E86</tableSpace>
+<existingIndex>3841DD87-8DD7-84AE-61F0-603090D329F4</existingIndex>
+<indexSegment>671BA37E-CFBF-3337-A3AA-836E656124DC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

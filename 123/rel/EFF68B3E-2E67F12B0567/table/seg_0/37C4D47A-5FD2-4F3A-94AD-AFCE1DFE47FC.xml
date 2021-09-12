@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37C4D47A-5FD2-4F3A-94AD-AFCE1DFE47FC" schemaObject="9B745D86-1D1D-85D4-B5FF-0E9378E2072E" name="COURSE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>COURSE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:47 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CCODE" id="459A2FCF-4BA6-1691-AB4D-0EC4B73D914B">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>CCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNAME" id="259B9442-3377-B7B0-E4EB-DB077530B322">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>CNAME</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TNO" id="1DCB74DE-D8C6-3FAA-4472-5EA6F76DB28B">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>TNO</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21F43744-44C1-3EA3-491F-0721FC61829C" referredColumn="119AC60C-C90D-A421-B977-EBF5352EB701"/>
+</associations>
+</Column>
+<Column name="STARTDATE" id="B3974E49-DF6F-3A4B-F31A-43474912E014">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>STARTDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDDATE" id="A91AA4E7-A70D-BBAC-F0FF-C5C241063E09">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>ENDDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPLETE" id="973B80C2-6B20-2E06-9B53-9BA9C1D276D9">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>COMPLETE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPERSON" id="ECBEC3EA-0FA1-9E5F-A890-7A9119C300B8">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>CPERSON</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAXCNT" id="9DF16D59-51B1-81BE-48B6-B55E64C60CE5">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>MAXCNT</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGDATE" id="79C3443F-150C-7F67-97B5-50CEE47D5452">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>REGDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFYDATE" id="AE9234FC-BE6D-7D49-4FE0-B6B1E3C9474E">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>COURSE</sourceObjSchema>
+<sourceObjName>MODIFYDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51511CCC-585B-7E82-F6F6-EE08E5885902" schemaObject="9B745D86-1D1D-85D4-B5FF-0E9378E2072E" name="COURSE_PK">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C008010</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="459A2FCF-4BA6-1691-AB4D-0EC4B73D914B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABE2EC82-CB61-3186-9D92-8C344022FEE1" name="SYS_C008011">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:49 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DCB74DE-D8C6-3FAA-4472-5EA6F76DB28B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

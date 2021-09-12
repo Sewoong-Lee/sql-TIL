@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F46E2501-787B-C89C-54B8-3242260271FB" containerWithKeyObject="7F9266FF-D6F6-B1DA-CEC4-B4C980B2304D" localFKIndex="0E527FFC-DA28-3884-8202-EE49B22F0820" name="SYS_C008067">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C008067</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:18 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<referredTableLongName>HR.MEMBER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62CEF83E-C236-6392-D668-213F6C88E4DE</referredTableID>
+<keyObject>55A81BFE-C77C-7A52-C26B-9E28E4907163</keyObject>
+<referredKeyID>55A81BFE-C77C-7A52-C26B-9E28E4907163</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USERID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

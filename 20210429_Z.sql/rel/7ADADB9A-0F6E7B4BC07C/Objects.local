@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="739349AD-E41E-AEAE-0C2C-75251D222117" name="HR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="7ADADB9A-7F8D-F8E8-9F62-0F6E7B4BC07C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="21E2E5D4-30DB-648C-03FB-92CD2E061B4D" name="ITEM" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="7ADADB9A-7F8D-F8E8-9F62-0F6E7B4BC07C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="0F89FCA5-0EF7-01A7-8AA8-7500D81B5C14" name="SALES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="7ADADB9A-7F8D-F8E8-9F62-0F6E7B4BC07C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="3F725B2C-2C49-F476-D627-40DAC2998E86" name="FK_ITEMCODE_ITEM" seqName="seg_0" containerID="0F89FCA5-0EF7-01A7-8AA8-7500D81B5C14" refContainerID="21E2E5D4-30DB-648C-03FB-92CD2E061B4D" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="7ADADB9A-7F8D-F8E8-9F62-0F6E7B4BC07C" propertySourceId="21E2E5D4-30DB-648C-03FB-92CD2E061B4D" propertyTargetId="0F89FCA5-0EF7-01A7-8AA8-7500D81B5C14"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="28BC5A15-A4B9-5B88-C967-7E7B62092185" mainViewID="6C55FD85-D862-37A9-6176-A9A7AC3B1332">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:20 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>orara</connName>
+<connUser>HR</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

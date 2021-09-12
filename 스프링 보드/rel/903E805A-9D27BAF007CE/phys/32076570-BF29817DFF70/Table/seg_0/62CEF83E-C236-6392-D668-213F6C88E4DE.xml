@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MEMBER" directorySegmentName="seg_0" id="62CEF83E-C236-6392-D668-213F6C88E4DE">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<schemaObject>BC0570C4-E2C1-A6CF-AD3C-8C04AE243798</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>240A463A-6C14-AFFB-692C-B28A971AE4EF</segment>
+<tableSpace>1BBB1555-FF2F-E417-E37D-FE8BDFA1CA9C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USERID" id="029CCAB1-CD19-D2BA-3A08-602ECD68D6AE">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDR1" id="08AC9848-A046-1F3F-C39E-4843D524287B">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDR2" id="34AF4043-7490-9807-0F3B-E6B15D0B4A91">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="35D207BD-7E6C-FDA9-DB45-BE63C77FC4CF">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADMIN" id="434656C3-1F53-966E-324B-1A9706C0B5AA">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<defaultValue>&apos;2&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ZIP" id="50A5199F-9F93-3470-64D4-89DCE612CA86">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMO" id="6A4E5B1A-9B79-4A21-16D2-C7B459BC537C">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILENAME" id="8078FFBF-FA6F-558E-160F-C22D6DF67543">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAILAUTH" id="893CF2F4-D81A-FBC0-8F6F-10F8C486BB22">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<defaultValue>&apos;0&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PASSWD" id="90244DC2-F813-A3EC-7B35-22BD06BADCEC">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIMPLEJOIN" id="9B46BED5-0980-EEA1-2DD1-3811B5D84F2A">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<defaultValue>&apos;0&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="REGDATE" id="F6E7C2EF-2829-2F7E-DEE2-3758BC16098B">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_MEMBER_USERID" id="55A81BFE-C77C-7A52-C26B-9E28E4907163">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<schemaObject>BC0570C4-E2C1-A6CF-AD3C-8C04AE243798</schemaObject>
+<segment>0736899E-E3B6-E6F2-FAAB-8658CAF2A827</segment>
+<tableSpace>1BBB1555-FF2F-E417-E37D-FE8BDFA1CA9C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_MEMBER_USERID" id="2AA7DA3F-3D55-A0DA-6FA0-47EBE676DF73">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:47:14 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<segment>0736899E-E3B6-E6F2-FAAB-8658CAF2A827</segment>
+<tableSpace>1BBB1555-FF2F-E417-E37D-FE8BDFA1CA9C</tableSpace>
+<existingIndex>55A81BFE-C77C-7A52-C26B-9E28E4907163</existingIndex>
+<indexSegment>0736899E-E3B6-E6F2-FAAB-8658CAF2A827</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

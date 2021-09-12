@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57D37501-F55A-F27D-E862-2853D622FF63" schemaObject="BC0570C4-E2C1-A6CF-AD3C-8C04AE243798" name="BOARDFILE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>BOARDFILE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:33 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FNUM" id="ED63594E-37F6-38B4-9B98-CB3209C359B1">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARDFILE</sourceObjSchema>
+<sourceObjName>FNUM</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:33 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BNUM" id="341713AB-F387-736E-2AE8-31FF0FB26CAE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARDFILE</sourceObjSchema>
+<sourceObjName>BNUM</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:33 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BC653E4-FE0D-E4DF-ED24-E345AF0B2EB2" referredColumn="F62A57E2-E4DC-D2FA-E5B4-55CC12FD1812"/>
+</associations>
+</Column>
+<Column name="FILENAME" id="A74FBBD9-DF28-DC64-B3BA-6344D39A4D41">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARDFILE</sourceObjSchema>
+<sourceObjName>FILENAME</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:33 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGDATE" id="0716998E-C560-6F1B-61E3-35161EC76CA9">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARDFILE</sourceObjSchema>
+<sourceObjName>REGDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:33 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F461FE2F-ECEA-F98B-461F-1D2993F75AA5" schemaObject="BC0570C4-E2C1-A6CF-AD3C-8C04AE243798" name="BOARDFILE_PK">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C008056</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:33 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED63594E-37F6-38B4-9B98-CB3209C359B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E251E60F-C8FF-555A-3782-609540F220E5" name="SYS_C008057">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:33 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="341713AB-F387-736E-2AE8-31FF0FB26CAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

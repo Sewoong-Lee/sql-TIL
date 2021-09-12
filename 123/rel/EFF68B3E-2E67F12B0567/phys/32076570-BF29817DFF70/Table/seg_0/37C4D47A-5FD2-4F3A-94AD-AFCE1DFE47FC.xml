@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COURSE" directorySegmentName="seg_0" id="37C4D47A-5FD2-4F3A-94AD-AFCE1DFE47FC">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>9B745D86-1D1D-85D4-B5FF-0E9378E2072E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0B28FA85-BA1E-9BD7-A36C-5289CBE88212</segment>
+<tableSpace>55428939-576D-B4FA-F4BA-6DA25E7D916D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TNO" id="1DCB74DE-D8C6-3FAA-4472-5EA6F76DB28B">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CNAME" id="259B9442-3377-B7B0-E4EB-DB077530B322">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CCODE" id="459A2FCF-4BA6-1691-AB4D-0EC4B73D914B">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGDATE" id="79C3443F-150C-7F67-97B5-50CEE47D5452">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="COMPLETE" id="973B80C2-6B20-2E06-9B53-9BA9C1D276D9">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAXCNT" id="9DF16D59-51B1-81BE-48B6-B55E64C60CE5">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENDDATE" id="A91AA4E7-A70D-BBAC-F0FF-C5C241063E09">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODIFYDATE" id="AE9234FC-BE6D-7D49-4FE0-B6B1E3C9474E">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="STARTDATE" id="B3974E49-DF6F-3A4B-F31A-43474912E014">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CPERSON" id="ECBEC3EA-0FA1-9E5F-A890-7A9119C300B8">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008011" id="ABE2EC82-CB61-3186-9D92-8C344022FEE1">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:49 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COURSE_PK" id="51511CCC-585B-7E82-F6F6-EE08E5885902">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:07:48 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>9B745D86-1D1D-85D4-B5FF-0E9378E2072E</schemaObject>
+<segment>1F59D58A-A0B9-D763-9834-7B99C242A315</segment>
+<tableSpace>55428939-576D-B4FA-F4BA-6DA25E7D916D</tableSpace>
+<indexSegment>1F59D58A-A0B9-D763-9834-7B99C242A315</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

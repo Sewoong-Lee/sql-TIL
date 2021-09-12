@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1065EA8A-BC32-8B4F-1404-D57A96BBD0DB">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:12 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

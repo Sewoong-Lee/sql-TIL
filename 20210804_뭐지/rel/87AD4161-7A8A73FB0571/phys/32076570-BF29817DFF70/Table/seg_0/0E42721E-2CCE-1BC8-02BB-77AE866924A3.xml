@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MV_SEATS" directorySegmentName="seg_0" id="0E42721E-2CCE-1BC8-02BB-77AE866924A3">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:52 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<schemaObject>7843FB3F-FF60-BB11-A213-4AE1621D69D9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B41B3AD6-F096-EFA2-09BE-2A3264F37AA0</segment>
+<tableSpace>F19C6341-C3D0-D73B-1BED-23776FAC9364</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SEATS_ROW" id="80728A4F-5AB9-9545-8CDC-C6D8835153D0">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:52 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEATS_CODE" id="F5255B79-E811-2AD8-0E15-3161D261AF8E">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:52 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEATS_COL" id="FA6387F7-BAC7-8A94-141D-284208F910CB">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:52 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MV_SEATS_PK" id="8C09BEF2-CC0C-241D-2F2F-3A60D23779E7">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:52 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<schemaObject>7843FB3F-FF60-BB11-A213-4AE1621D69D9</schemaObject>
+<segment>900FEF63-A46A-072C-2D40-60CC12FC2826</segment>
+<tableSpace>F19C6341-C3D0-D73B-1BED-23776FAC9364</tableSpace>
+<indexSegment>900FEF63-A46A-072C-2D40-60CC12FC2826</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

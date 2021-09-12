@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GUBUN" directorySegmentName="seg_0" id="23C066AA-E5B3-C10B-97F9-61B72D0DE941">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:29 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<schemaObject>79917BD7-FFD1-3195-B9EE-243066D1F7BB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6453826F-96F5-5D40-EA57-3C18A2F869A8</segment>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GNAME" id="6B219669-75B7-4D92-D975-134EC0951D76">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:29 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GCODE" id="AA4E90A2-3AAA-2693-E123-2DCB45FB16AB">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:29 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_GUBUN_GCODE" id="D7109F47-D9E5-29E2-C999-DE176432F655">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:29 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<schemaObject>79917BD7-FFD1-3195-B9EE-243066D1F7BB</schemaObject>
+<segment>EE7D1354-3D15-1B37-4E68-BFA427649D13</segment>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_GUBUN_GCODE" id="DCB0F136-1272-3380-0F16-1581F00E8336">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:29 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<segment>EE7D1354-3D15-1B37-4E68-BFA427649D13</segment>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+<existingIndex>D7109F47-D9E5-29E2-C999-DE176432F655</existingIndex>
+<indexSegment>EE7D1354-3D15-1B37-4E68-BFA427649D13</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

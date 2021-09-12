@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05A795DB-A562-7661-F694-46EB4579FC88" schemaObject="BC0570C4-E2C1-A6CF-AD3C-8C04AE243798" name="BOARD">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>BOARD</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BNUM" id="F62A57E2-E4DC-D2FA-E5B4-55CC12FD1812">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>BNUM</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID" id="BAF69C09-22A6-3097-7ACD-592666A1651B">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6118DA82-7A19-2900-717D-20AC8D9653B7" referredColumn="029CCAB1-CD19-D2BA-3A08-602ECD68D6AE"/>
+</associations>
+</Column>
+<Column name="SUBJECT" id="F2060F7B-129E-268E-5E46-EA19F82C05A0">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>SUBJECT</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="3BFF6A78-54E6-0D50-21CE-7244EA1B32AD">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="READCNT" id="FBBB5917-77EA-3128-8A6B-8C45182B469C">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>READCNT</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIKECNT" id="3D2BE771-CE4F-5C39-8A30-C08B374316E4">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>LIKECNT</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISLIKECNT" id="B654B60F-667A-F133-868F-3A912677E683">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>DISLIKECNT</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IP" id="B1B38DB5-A392-E2A4-01A1-FEE87933C32C">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>IP</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGDATE" id="CB1156B2-8AD6-8DF0-BA98-1E6DEF03583C">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>REGDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFYDATE" id="60A3EAE5-70B3-703D-90AD-5405820BAB37">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>BOARD</sourceObjSchema>
+<sourceObjName>MODIFYDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA8EC50E-CB8E-FAD4-1A74-3DDDB584D299" schemaObject="BC0570C4-E2C1-A6CF-AD3C-8C04AE243798" name="BOARD_PK">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C008051</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F62A57E2-E4DC-D2FA-E5B4-55CC12FD1812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6BC88E9-6ED7-1F1F-2A02-F1D8D0AA5C2C" name="SYS_C008052">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-13 02:46:26 UTC</createdTime>
+<ownerDesignName>스프링 보드</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAF69C09-22A6-3097-7ACD-592666A1651B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

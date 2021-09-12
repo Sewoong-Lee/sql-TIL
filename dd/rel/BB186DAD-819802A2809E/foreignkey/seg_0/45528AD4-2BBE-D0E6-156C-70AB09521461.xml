@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="45528AD4-2BBE-D0E6-156C-70AB09521461" containerWithKeyObject="99A7E099-A9C6-0FC5-3DFF-EEAD8DD2C9C1" localFKIndex="E15E500C-0F63-971C-6F7C-61607A25F4A6" name="FK_SUBJECT_KWCODE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>FK_SUBJECT_KWCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<referredTableLongName>HR.KEYWORD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8A5075A-2429-BEC9-096E-66BABACAD02F</referredTableID>
+<keyObject>FEA32631-E22B-E310-FEB6-884152D54384</keyObject>
+<referredKeyID>FEA32631-E22B-E310-FEB6-884152D54384</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KWCODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

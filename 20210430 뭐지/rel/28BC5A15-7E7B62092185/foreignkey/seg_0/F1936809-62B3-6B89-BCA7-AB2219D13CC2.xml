@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1936809-62B3-6B89-BCA7-AB2219D13CC2" containerWithKeyObject="A8974456-986E-3A84-10FE-699F27DE3D93" localFKIndex="EE4D969E-15A8-87C5-3C9F-BA15FECF26F6" name="FK_BOOK_PCODE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>FK_BOOK_PCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<referredTableLongName>HR.PUB</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07FE0D52-9F1E-4CE2-1D81-0BC5E8DC4A4E</referredTableID>
+<keyObject>72203D17-3261-042E-D1AB-11184816A2F4</keyObject>
+<referredKeyID>72203D17-3261-042E-D1AB-11184816A2F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PCODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

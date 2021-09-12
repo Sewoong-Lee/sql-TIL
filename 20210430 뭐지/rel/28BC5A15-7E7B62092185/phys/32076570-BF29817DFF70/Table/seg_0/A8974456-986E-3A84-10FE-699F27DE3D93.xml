@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BOOK2" directorySegmentName="seg_0" id="A8974456-986E-3A84-10FE-699F27DE3D93">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<schemaObject>79917BD7-FFD1-3195-B9EE-243066D1F7BB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6453826F-96F5-5D40-EA57-3C18A2F869A8</segment>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PCODE" id="0E45104A-A838-C127-3641-3390D096BD5B">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKNAME" id="3202594B-7F6B-2C87-3085-DFD5499CA94C">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GCODE" id="64540C85-BDDD-804A-F705-64C1A3EAB0B1">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGDATE" id="837A17E7-63C0-642F-77BE-0C91D0911132">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="BOOKCODE" id="B8D4542D-619D-62D5-1D71-E9D808B5AA20">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="B9F4874E-6708-24B2-2F94-DBDD4B94A8DD">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="SALEPER" id="D1437236-162C-DC65-B82F-B821F0B3D112">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_BOOK_BOOKCODE" id="776631D7-7C52-F1F6-8567-5685CD44B1C4">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<schemaObject>79917BD7-FFD1-3195-B9EE-243066D1F7BB</schemaObject>
+<segment>EE7D1354-3D15-1B37-4E68-BFA427649D13</segment>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOK_GCODE" id="011F4904-D641-0685-48D0-31D34E16C5D7">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BOOK_PCODE" id="EE4D969E-15A8-87C5-3C9F-BA15FECF26F6">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_BOOK_BOOKCODE" id="55BCDC85-2080-C476-4720-D4D63815C398">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<segment>EE7D1354-3D15-1B37-4E68-BFA427649D13</segment>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+<existingIndex>776631D7-7C52-F1F6-8567-5685CD44B1C4</existingIndex>
+<indexSegment>EE7D1354-3D15-1B37-4E68-BFA427649D13</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

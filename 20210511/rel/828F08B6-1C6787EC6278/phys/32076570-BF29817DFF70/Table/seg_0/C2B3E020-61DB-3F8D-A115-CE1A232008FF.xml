@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MONE" directorySegmentName="seg_0" id="C2B3E020-61DB-3F8D-A115-CE1A232008FF">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:32 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+<schemaObject>43DB1033-23ED-25C7-066F-23FEE8BC064A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>07D5A745-C932-64D4-5A85-437170193C2C</segment>
+<tableSpace>88011E32-D915-6D55-1448-A1C32BDE07EC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MNAME" id="5903A0AC-08EA-C486-F397-5A4FEA099681">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:32 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MCODE" id="68485228-99F2-EA6B-FCCE-639D1657DAD7">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:32 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TCODE" id="9DBA83A8-BD5A-3CC3-78BF-A9C0315E2499">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:32 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_MONE_MCODE" id="6352839F-98C9-FD29-30DC-9A2453196D6F">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:32 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+<schemaObject>43DB1033-23ED-25C7-066F-23FEE8BC064A</schemaObject>
+<segment>5AC7D7E8-C277-FA47-6740-B1E9EDDC8E3A</segment>
+<tableSpace>88011E32-D915-6D55-1448-A1C32BDE07EC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_MONE_TCODE" id="84C00A51-4D57-FEB1-5B74-B887CBA0D68F">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:32 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_MONE_MCODE" id="C523827E-7680-721B-1B27-7AFFB1849B9B">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:32 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+<segment>5AC7D7E8-C277-FA47-6740-B1E9EDDC8E3A</segment>
+<tableSpace>88011E32-D915-6D55-1448-A1C32BDE07EC</tableSpace>
+<existingIndex>6352839F-98C9-FD29-30DC-9A2453196D6F</existingIndex>
+<indexSegment>5AC7D7E8-C277-FA47-6740-B1E9EDDC8E3A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

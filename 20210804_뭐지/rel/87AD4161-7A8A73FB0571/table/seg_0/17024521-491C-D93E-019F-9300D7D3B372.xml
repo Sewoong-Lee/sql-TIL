@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17024521-491C-D93E-019F-9300D7D3B372" schemaObject="7843FB3F-FF60-BB11-A213-4AE1621D69D9" name="CINEMA">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>CINEMA</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:52:32 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CINEMA_CODE" id="A3AFB59F-2540-1C45-ADE7-6951692439B3">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>CINEMA</sourceObjSchema>
+<sourceObjName>CINEMA_CODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:52:32 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY_CODE" id="7470A650-2ADB-E4F3-A115-29FDF827D183">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>CINEMA</sourceObjSchema>
+<sourceObjName>CITY_CODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:52:32 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CINEMA_NAME" id="47B5D839-6DE1-0163-DF35-5483433707E6">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>CINEMA</sourceObjSchema>
+<sourceObjName>CINEMA_NAME</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:52:32 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CINEMA_TEL" id="4360BD1E-2A65-B934-D6D3-7A8535124210">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>CINEMA</sourceObjSchema>
+<sourceObjName>CINEMA_TEL</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:52:32 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B6AF269-2C8E-776C-D0F1-8000349B8F3C" schemaObject="7843FB3F-FF60-BB11-A213-4AE1621D69D9" name="CINEMA_PK">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C007069</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:52:32 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3AFB59F-2540-1C45-ADE7-6951692439B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="730DDC35-99B9-D1C7-7251-DABFA9DC8F1F" name="SYS_C007070">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:52:32 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7470A650-2ADB-E4F3-A115-29FDF827D183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

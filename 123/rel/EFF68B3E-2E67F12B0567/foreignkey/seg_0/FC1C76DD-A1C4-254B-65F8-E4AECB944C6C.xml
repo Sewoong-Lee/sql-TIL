@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FC1C76DD-A1C4-254B-65F8-E4AECB944C6C" containerWithKeyObject="114543E0-87BF-3750-CBDF-7B3E68283BBE" localFKIndex="504BD4A3-E9E9-ACE5-838A-EF1F31B66D28" name="SYS_C008015">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C008015</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:30 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<referredTableLongName>HR.COURSE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>37C4D47A-5FD2-4F3A-94AD-AFCE1DFE47FC</referredTableID>
+<keyObject>51511CCC-585B-7E82-F6F6-EE08E5885902</keyObject>
+<referredKeyID>51511CCC-585B-7E82-F6F6-EE08E5885902</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CCODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

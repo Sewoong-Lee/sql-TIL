@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99A7E099-A9C6-0FC5-3DFF-EEAD8DD2C9C1" schemaObject="1206E149-375C-98F3-A753-882764E81FD9" name="SUBJECT">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SUBJECT</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUBCODE" id="5BDFA575-9FCA-D92B-872E-70D1F3E07C6B">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>SUBJECT</sourceObjSchema>
+<sourceObjName>SUBCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBNAME" id="0D7E86CA-BFA0-8C2E-4B65-E5D31AF152F0">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>SUBJECT</sourceObjSchema>
+<sourceObjName>SUBNAME</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="4627D40B-5E29-0D8D-0593-676C3BA9C6E5">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>SUBJECT</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILENAME" id="2E53B9DF-1120-B7D2-53C0-4AE84ADB4659">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>SUBJECT</sourceObjSchema>
+<sourceObjName>FILENAME</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KWCODE" id="DDC95682-CA3D-8815-B870-DA5D5B3ED44B">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>SUBJECT</sourceObjSchema>
+<sourceObjName>KWCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45528AD4-2BBE-D0E6-156C-70AB09521461" referredColumn="DCA07E84-A7AD-F7E7-B7E5-CF24D50AD5B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95464091-D14E-B4E1-2DAD-20047E3F9555" name="PK_SUBJECT_SUBCODE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_SUBJECT_SUBCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BDFA575-9FCA-D92B-872E-70D1F3E07C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B29E1127-D350-9FA1-8CF3-456380406D1A" schemaObject="1206E149-375C-98F3-A753-882764E81FD9" name="PK_SUBJECT_SUBCODE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_SUBJECT_SUBCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BDFA575-9FCA-D92B-872E-70D1F3E07C6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E15E500C-0F63-971C-6F7C-61607A25F4A6" name="FK_SUBJECT_KWCODE">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:53 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDC95682-CA3D-8815-B870-DA5D5B3ED44B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

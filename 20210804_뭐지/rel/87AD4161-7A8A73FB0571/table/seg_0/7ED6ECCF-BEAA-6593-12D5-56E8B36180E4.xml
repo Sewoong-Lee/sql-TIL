@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ED6ECCF-BEAA-6593-12D5-56E8B36180E4" schemaObject="7843FB3F-FF60-BB11-A213-4AE1621D69D9" name="MV_SALES_SEATS">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>MV_SALES_SEATS</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:57 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SAL_NUM" id="0B43D197-9A12-D93C-D5B4-3AF0AAD1241A">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>MV_SALES_SEATS</sourceObjSchema>
+<sourceObjName>SAL_NUM</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:57 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEATS_CODE" id="9C7E9E1D-43E5-4EC4-FE6E-D2B9C6BE263B">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>MV_SALES_SEATS</sourceObjSchema>
+<sourceObjName>SEATS_CODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:57 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="273C4ECF-7018-2EAF-21F3-796A90F347FC" referredColumn="F5255B79-E811-2AD8-0E15-3161D261AF8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99026EA0-C13C-77A9-F0CD-C4FAB2CE293A" schemaObject="7843FB3F-FF60-BB11-A213-4AE1621D69D9" name="MV_SALES_SEATS_PK">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C007112</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:57 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B43D197-9A12-D93C-D5B4-3AF0AAD1241A"/>
+<colUsage columnID="9C7E9E1D-43E5-4EC4-FE6E-D2B9C6BE263B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A59D95F-7706-5865-6DAF-16BABF20F8F3" name="SYS_C007113">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:57 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B43D197-9A12-D93C-D5B4-3AF0AAD1241A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23598B4F-2763-A48B-C207-492C013EDAFC" name="SYS_C007114">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:53:57 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C7E9E1D-43E5-4EC4-FE6E-D2B9C6BE263B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

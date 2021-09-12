@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PTYPE" directorySegmentName="seg_0" id="D8F68B39-7588-E49B-C4D1-5F963ED51BCB">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:21 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+<schemaObject>43DB1033-23ED-25C7-066F-23FEE8BC064A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>07D5A745-C932-64D4-5A85-437170193C2C</segment>
+<tableSpace>88011E32-D915-6D55-1448-A1C32BDE07EC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TNAME" id="8BB1D8AB-B13F-37CE-40C6-361ED79E92C4">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:21 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TCODE" id="BFABFD46-2E02-0E03-46A4-CC2810D512B8">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:21 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PTYPE_TCODE" id="32C9D192-AC7F-B417-45C2-56D011CB7088">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:21 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+<schemaObject>43DB1033-23ED-25C7-066F-23FEE8BC064A</schemaObject>
+<segment>5AC7D7E8-C277-FA47-6740-B1E9EDDC8E3A</segment>
+<tableSpace>88011E32-D915-6D55-1448-A1C32BDE07EC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PTYPE_TCODE" id="B2186BAA-3E39-6DB5-CFF9-3F6FFD0E7929">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-05-11 06:54:21 UTC</createdTime>
+<ownerDesignName>20210511</ownerDesignName>
+<segment>5AC7D7E8-C277-FA47-6740-B1E9EDDC8E3A</segment>
+<tableSpace>88011E32-D915-6D55-1448-A1C32BDE07EC</tableSpace>
+<existingIndex>32C9D192-AC7F-B417-45C2-56D011CB7088</existingIndex>
+<indexSegment>5AC7D7E8-C277-FA47-6740-B1E9EDDC8E3A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

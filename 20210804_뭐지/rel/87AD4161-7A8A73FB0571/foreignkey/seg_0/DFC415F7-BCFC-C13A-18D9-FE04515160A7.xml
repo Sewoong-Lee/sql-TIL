@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DFC415F7-BCFC-C13A-18D9-FE04515160A7" containerWithKeyObject="1DAF4647-680E-6C71-320D-54463061074B" localFKIndex="AF2B62A8-D3BB-AB2D-C5DE-33587E0F72CF" name="SYS_C007100">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C007100</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-08-03 15:52:37 UTC</createdTime>
+<ownerDesignName>20210804_뭐지</ownerDesignName>
+<referredTableLongName>HR.MV_MOVIE_DATA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>true</mandatory>
+<refColNames>MOVIE_NUM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

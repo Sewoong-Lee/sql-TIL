@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GRADE" directorySegmentName="seg_0" id="790B5A19-D56E-FF34-B50B-4CB1D5665A2A">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:20 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>9B745D86-1D1D-85D4-B5FF-0E9378E2072E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0B28FA85-BA1E-9BD7-A36C-5289CBE88212</segment>
+<tableSpace>55428939-576D-B4FA-F4BA-6DA25E7D916D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="JCODE" id="111D1F7B-A7CF-5163-E9BA-40F141B548C7">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:20 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SNO" id="84514A02-83E7-91D8-684A-AAE0E3175C47">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:20 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SCORE" id="F1C79C35-86E7-F46E-708F-FFBB00577952">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:20 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008019" id="DEF9791A-043E-B32D-305D-6F27C14B5F4C">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:20 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008020" id="E9EFFBD1-A1BB-ADE0-326C-34382E60D01A">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:20 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GRADE_PK" id="B24DBFBE-6FED-2B2B-4CFE-8DB42EAD127E">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:20 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>9B745D86-1D1D-85D4-B5FF-0E9378E2072E</schemaObject>
+<segment>1F59D58A-A0B9-D763-9834-7B99C242A315</segment>
+<tableSpace>55428939-576D-B4FA-F4BA-6DA25E7D916D</tableSpace>
+<indexSegment>1F59D58A-A0B9-D763-9834-7B99C242A315</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

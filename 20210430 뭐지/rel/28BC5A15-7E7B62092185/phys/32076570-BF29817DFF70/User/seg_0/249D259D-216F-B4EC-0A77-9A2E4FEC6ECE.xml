@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="HR" directorySegmentName="seg_0" id="249D259D-216F-B4EC-0A77-9A2E4FEC6ECE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjName>HR</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:22 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<schemaObject>79917BD7-FFD1-3195-B9EE-243066D1F7BB</schemaObject>
+<defTableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</defTableSpace>
+<privileges>CREATE VIEW, UNLIMITED TABLESPACE, CREATE DATABASE LINK, CREATE SEQUENCE, CREATE SESSION, ALTER SESSION, CREATE SYNONYM</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="9F9B19DF-D4AD-3AEB-2FB7-DACDA7FF3598">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:23 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="285E4619-DAE3-7AD3-ADB6-B1A981FE08E9">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:29 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="47A8477A-0E21-0BCC-41EF-8C40583755EE">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:36 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="C0D30E48-67CF-392D-4EF1-03167CF49FBC">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:48:58 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="C5C47B96-F6F8-B710-DF78-DC5ABA238817">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 07:49:16 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem6" id="DCC1D717-8B56-699B-A30C-161D490B1B5F">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-30 08:02:59 UTC</createdTime>
+<ownerDesignName>20210430 뭐지</ownerDesignName>
+<tableSpace>EB29118A-BAF5-380B-1EFE-F32FC8DDAFD8</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

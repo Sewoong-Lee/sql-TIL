@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="114543E0-87BF-3750-CBDF-7B3E68283BBE" schemaObject="9B745D86-1D1D-85D4-B5FF-0E9378E2072E" name="REQUEST">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>REQUEST</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:30 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CCODE" id="5B01A680-A211-5205-235C-8D6CC8BD853E">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>REQUEST</sourceObjSchema>
+<sourceObjName>CCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:30 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC1C76DD-A1C4-254B-65F8-E4AECB944C6C" referredColumn="459A2FCF-4BA6-1691-AB4D-0EC4B73D914B"/>
+</associations>
+</Column>
+<Column name="SNO" id="77DDA036-B68E-F8A6-25F1-63919C3926CE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>REQUEST</sourceObjSchema>
+<sourceObjName>SNO</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:30 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49B612E7-03B7-E31C-AB25-016FEA6E4D38" referredColumn="FCCE9F58-D61D-C617-DC1D-EB77CE364817"/>
+</associations>
+</Column>
+<Column name="REGDATE" id="70AE1579-DC08-1363-60A4-C4C96238AE8F">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>REQUEST</sourceObjSchema>
+<sourceObjName>REGDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:30 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8AD9DBE-D235-3CCD-6736-97F1609B7F75" schemaObject="9B745D86-1D1D-85D4-B5FF-0E9378E2072E" name="REQUEST_PK">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C008014</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:30 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B01A680-A211-5205-235C-8D6CC8BD853E"/>
+<colUsage columnID="77DDA036-B68E-F8A6-25F1-63919C3926CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="504BD4A3-E9E9-ACE5-838A-EF1F31B66D28" name="SYS_C008015">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:30 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B01A680-A211-5205-235C-8D6CC8BD853E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3E92C3B-6715-A635-012A-224129840335" name="SYS_C008016">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:09:30 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77DDA036-B68E-F8A6-25F1-63919C3926CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

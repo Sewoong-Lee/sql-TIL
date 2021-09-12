@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TEACHER" directorySegmentName="seg_0" id="5074A8E3-2094-E515-FCF6-3D7F0BDA98B4">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>9B745D86-1D1D-85D4-B5FF-0E9378E2072E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0B28FA85-BA1E-9BD7-A36C-5289CBE88212</segment>
+<tableSpace>55428939-576D-B4FA-F4BA-6DA25E7D916D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TNO" id="119AC60C-C90D-A421-B977-EBF5352EB701">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZIP" id="3E121389-2DF2-CC84-337C-3579762B61B5">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEL" id="4AF4222B-D02C-1AB4-6EB2-DE1ABF867059">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDR2" id="4DCB2109-F9A4-D083-FF79-CF3E665130E2">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDR1" id="9416E86F-5670-B195-8B45-09C50BE91E80">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TNAME" id="B4BA64D0-21D7-F491-A0C7-D3A6F1DD946D">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGDATE" id="B927A6B4-24F2-8B39-8B75-7C97807F5775">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="SKILL" id="CF9A0781-CE2C-BAAD-6C64-CE880D9D5ECE">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TEACHER_PK" id="23CA49BB-77C2-6B81-498B-4736DF1ECEAD">
+<createdBy>stpn0</createdBy>
+<createdTime>2021-07-09 03:08:43 UTC</createdTime>
+<ownerDesignName>123</ownerDesignName>
+<schemaObject>9B745D86-1D1D-85D4-B5FF-0E9378E2072E</schemaObject>
+<segment>1F59D58A-A0B9-D763-9834-7B99C242A315</segment>
+<tableSpace>55428939-576D-B4FA-F4BA-6DA25E7D916D</tableSpace>
+<indexSegment>1F59D58A-A0B9-D763-9834-7B99C242A315</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

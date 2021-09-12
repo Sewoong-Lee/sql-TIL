@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A001E04B-AF68-91C3-4173-C4821DF5B435" containerWithKeyObject="0711B39B-735A-8552-74E5-78A5D8F3558A" localFKIndex="7C42869D-9567-7E56-D12B-5DBEA4D931DB" name="FK_SALES_USERID">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>FK_SALES_USERID</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:15 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<referredTableLongName>HR.MEMBER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B1AAEAB-5526-6AB3-3BEE-FD5CCFEB3B98</referredTableID>
+<keyObject>3B16A281-0146-FF6D-92B7-9C16C8151F8E</keyObject>
+<referredKeyID>3B16A281-0146-FF6D-92B7-9C16C8151F8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USERID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

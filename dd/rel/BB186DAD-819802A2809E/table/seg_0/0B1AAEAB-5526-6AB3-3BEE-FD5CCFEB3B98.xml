@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B1AAEAB-5526-6AB3-3BEE-FD5CCFEB3B98" schemaObject="1206E149-375C-98F3-A753-882764E81FD9" name="MEMBER">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>MEMBER</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:04 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="2EE5FEB0-CB64-9AEC-6B2A-29025654D2A2">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:05 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWD" id="9362C744-854F-F32B-04BF-F05BF12E6FDB">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>PASSWD</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:05 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<ownDataTypeParameters>64 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="321F2B5F-83C6-D832-FDEC-6F9B4B0F79BF">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:05 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGDATE" id="112BD4B9-BE32-A2AF-4387-0F71A5A9C23F">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>REGDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:05 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67563B8D-3514-B743-F131-9BA0F823DB0C" name="PK_MEMBER_USERID">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_MEMBER_USERID</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:05 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EE5FEB0-CB64-9AEC-6B2A-29025654D2A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B16A281-0146-FF6D-92B7-9C16C8151F8E" schemaObject="1206E149-375C-98F3-A753-882764E81FD9" name="PK_MEMBER_USERID">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_MEMBER_USERID</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-06-10 08:25:05 UTC</createdTime>
+<ownerDesignName>dd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EE5FEB0-CB64-9AEC-6B2A-29025654D2A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

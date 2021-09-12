@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE04AD69-109C-054C-1A8B-80582B8201B4" schemaObject="73869992-6E16-739D-9004-3B1C50C1E046" name="ITEM">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>ITEM</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:26 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ITEMCODE" id="56113F94-79AD-F523-3C29-42E06A5E1717">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>ITEMCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:27 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEMNAME" id="ED636EEC-B541-D4C1-8C0E-6F7A992C24B0">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>ITEMNAME</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:27 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="6AEB8AAB-EECE-82BF-F274-4B7A93EE51CA">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:27 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIGO" id="40221C36-D578-72F8-D144-500DF9A2EEFB">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>BIGO</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:27 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGDATE" id="67CC0F09-16F8-B92B-2DDC-21C01CDF9E4C">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>REGDATE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:27 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE76396B-DE00-B7E8-5A6F-73C3DB3A2F6B" name="PK_ITEMCODE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_ITEMCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:27 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56113F94-79AD-F523-3C29-42E06A5E1717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95091B65-39A5-FCA6-2624-44F1DE079928" schemaObject="73869992-6E16-739D-9004-3B1C50C1E046" name="PK_ITEMCODE">
+<sourceConnName>orara</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PK_ITEMCODE</sourceObjName>
+<createdBy>stpn0</createdBy>
+<createdTime>2021-04-29 02:56:27 UTC</createdTime>
+<ownerDesignName>20210429_Z.sql</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56113F94-79AD-F523-3C29-42E06A5E1717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
