@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
-   <object objectID="349B7AC9-F968-262D-2E8E-FBBAF97E5E86" markedGenerate="false"/>
-   <object objectID="MDSYS" markedGenerate="false"/>
-   <object objectID="PUBLIC" markedGenerate="false"/>
-</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="SchemaObject" objectID="43DB1033-23ED-25C7-066F-23FEE8BC064A" name="HR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="828F08B6-5AE4-98FA-2E93-1C6787EC6278" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="C2B3E020-61DB-3F8D-A115-CE1A232008FF" name="MONE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="828F08B6-5AE4-98FA-2E93-1C6787EC6278" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="D8F68B39-7588-E49B-C4D1-5F963ED51BCB" name="PTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="828F08B6-5AE4-98FA-2E93-1C6787EC6278" propertySourceId="" propertyTargetId=""/>
-   <object objectType="FKIndexAssociation" objectID="986BB38F-AFD7-C1C2-23BB-B5A86D67FFC9" name="FK_MONE_TCODE" seqName="seg_0" containerID="C2B3E020-61DB-3F8D-A115-CE1A232008FF" refContainerID="D8F68B39-7588-E49B-C4D1-5F963ED51BCB" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="828F08B6-5AE4-98FA-2E93-1C6787EC6278" propertySourceId="D8F68B39-7588-E49B-C4D1-5F963ED51BCB" propertyTargetId="C2B3E020-61DB-3F8D-A115-CE1A232008FF"/>
-</oracle.dbtools.crest.model.design.relational.RelationalDesign>

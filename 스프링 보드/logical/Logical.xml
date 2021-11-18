@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="77A08C50-C37D-97D9-DDBC-14F5BCDFC8F0" mainViewID="3727DAB3-BDA6-0509-9497-03596E07E7D9">
-<createdBy>stpn0</createdBy>
-<createdTime>2021-07-13 02:46:11 UTC</createdTime>
-<ownerDesignName>스프링 보드</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
