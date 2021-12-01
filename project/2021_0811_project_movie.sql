@@ -277,6 +277,22 @@ values('ti36','cn01',39,'2021-11-17','10:00~12:00');
 insert into MV_TIME(TIME_CODE,CINEMA_CODE, MOVIE_NUM, TIME_DAY, TIME_TIME)
 values('ti37','cn01',40,'2021-11-17','10:00~12:00');
 
+
+insert into MV_TIME(TIME_CODE,CINEMA_CODE, MOVIE_NUM, TIME_DAY, TIME_TIME)
+values('ti54','cn01',39,'2021-12-03','07:00~09:00'),
+('ti55','cn01',39,'2021-12-03','10:00~12:00');
+
+insert into MV_TIME(TIME_CODE,CINEMA_CODE, MOVIE_NUM, TIME_DAY, TIME_TIME)
+values
+('ti56','cn01',40,'2021-12-03','07:00~09:00'),
+('ti57','cn01',40,'2021-12-03','10:00~12:00'),
+('ti58','cn02',39,'2021-12-03','07:00~09:00'),
+('ti59','cn02',39,'2021-12-03','10:00~12:00'),
+('ti60','cn02',39,'2021-12-01','07:00~09:00'),
+('ti61','cn02',39,'2021-12-01','10:00~12:00'),
+('ti62','cn02',40,'2021-12-01','07:00~09:00'),
+('ti63','cn02',40,'2021-12-01','10:00~12:00');
+
 select * from MV_TIME
 WHERE MOVIE_NUM = '54';
 
